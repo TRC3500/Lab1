@@ -6,7 +6,7 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     UART_1_Start();
-    for(;;)
+    for (;;)
     {
         UART_1_WriteTxData(0x20);
         CyDelay(500);
